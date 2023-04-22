@@ -1,4 +1,4 @@
-#Radio Python Script
+#Radio Python Script#
 
 This app was designed to record a long time 
 favorite blues show, that only airs on Saturday 
@@ -8,7 +8,7 @@ starts playing audio from the site's livestream.
 Next, the app uses pywinauto to open Audacity recording software and set the recording 
 duration. Once set, the app starts recording the audio from the show.
 
-##Libraries used:
+##Libraries used:##
     Pyautogui - mouse and clicking of windows of apps
     selenium- controls automation for browser
     pywinauto - control keyboard
