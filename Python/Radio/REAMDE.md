@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Radio Python Script
+=======
+#Radio Python Script#
+>>>>>>> 4a46da316dda4155a7747b24581adcdeee9c9410
 
 This console application was designed to record a long time 
 favorite blues show, that only airs on Saturday 
@@ -8,7 +12,11 @@ starts playing audio from the site's livestream.
 Next, the app uses pywinauto to open Audacity recording software and set the recording 
 duration. Once set, the app starts activates Audactiy recording feature and record the audio from the show.
 
+<<<<<<< HEAD
 ## Libraries used:
+=======
+##Libraries used:##
+>>>>>>> 4a46da316dda4155a7747b24581adcdeee9c9410
     Pyautogui - mouse and clicking of windows of apps
     selenium- controls automation for browser
     pywinauto - control keyboard
