@@ -1,14 +1,14 @@
-#Radio Python Script
+# Radio Python Script
 
-This app was designed to record a long time 
+This console application was designed to record a long time 
 favorite blues show, that only airs on Saturday 
 mornings from 6am to 10am. The app first uses selenium to navigate to the blues 
-site. Once there, it finds the play button by its xpath. Clicks it, and 
+site by way of Firefox. Once there, it finds the play button by its xpath. Clicks it, and 
 starts playing audio from the site's livestream. 
 Next, the app uses pywinauto to open Audacity recording software and set the recording 
-duration. Once set, the app starts recording the audio from the show.
+duration. Once set, the app starts activates Audactiy recording feature and record the audio from the show.
 
-##Libraries used:
+## Libraries used:
     Pyautogui - mouse and clicking of windows of apps
     selenium- controls automation for browser
     pywinauto - control keyboard
