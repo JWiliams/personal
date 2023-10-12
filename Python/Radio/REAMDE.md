@@ -6,18 +6,18 @@
 This console application was designed to record a long time 
 favorite blues show, that only airs on Saturday 
 mornings from 6am to 10am (CST). The app first uses selenium to navigate to the blues 
-site by way of Firefox. Once there, it finds the play button by its xpath. Clicks it, and 
+site by way of Firefox. Once there, it finds the play button by its xpath. It clicks it, and 
 starts playing audio from the site's livestream. 
-Next, the app uses pywinauto to open Audacity recording software and set the recording 
-duration. Once set, the appactivates Audactiy's recording feature and record the audio from the show.
+Next, the app uses the Pywinauto library to open Audacity recording software and set the recording 
+duration. Once set, this activates Audactiy's recording feature and records the audio from the show.
 
 
 ## Libraries used:
 
 
     Pyautogui - mouse and clicking of windows of apps
-    selenium- controls automation for browser
-    pywinauto - control keyboard
+    Selenium- controls automation for browser
+    Pywinauto - control keyboard
 
 
 Pyautogui is a library that allows the app to simulate mouse and keyboard inputs. 
