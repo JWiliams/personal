@@ -9,7 +9,7 @@ mornings from 6am to 10am (CST). The app first uses selenium to navigate to the 
 site by way of Firefox. Once there, it finds the play button by its xpath. It clicks it, and 
 starts playing audio from the site's livestream. 
 Next, the app uses the Pywinauto library to open Audacity recording software and set the recording 
-duration. Once set, this activates Audactiy's recording feature and records the audio from the show.
+duration. Once set, it starts recording the show.
 
 
 ## Libraries used:
